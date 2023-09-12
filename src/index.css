@@ -1,0 +1,38 @@
+body {
+  background-color: lightblue;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.card {
+  width: 50%;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.card img {
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  height: 150px;
+  width: 150px;
+}
+.tab {
+  text-decoration: none;
+  color: white;
+  background-color: darkcyan;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.active {
+  background-color: darkorange;
+}
